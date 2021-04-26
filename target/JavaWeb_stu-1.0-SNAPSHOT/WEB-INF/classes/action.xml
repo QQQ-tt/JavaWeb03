@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<actions class="com.student.action.impl.ActionImpl">
+  <action name="login" method="login">
+    <result name="success" type="sendRedirect">query</result>
+    <result name="error" type="sendRedirect">/index.jsp</result>
+  </action>
+  <action name="add" method="add">
+    <result name="success" type="sendRedirect">query</result>
+    <result name="error" type="sendRedirect">/error.jsp</result>
+  </action>
+  <action name="remove" method="remove">
+    <result name="success" type="sendRedirect">query</result>
+    <result name="error" type="sendRedirect">/error.jsp</result>
+  </action>
+  <action name="revise" method="revise">
+    <result name="success" type="sendRedirect">query</result>
+    <result name="error" type="sendRedirect">/error.jsp</result>
+  </action>
+  <action name="query" method="query">
+    <result name="success" type="sendRedirect">/main.jsp</result>
+    <result name="error" type="sendRedirect">/error.jsp</result>
+  </action>
+</actions>

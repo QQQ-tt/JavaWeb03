@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<objects>
+  <object name="UserDao" class="com.student.dao.impl.UserDaoImpl"/>
+  <object name="TransAction" class="com.student.transaction.impl.TransActionImpl"/>
+  <object name="NumberUtil" class="com.student.util.NumberUtil"/>
+  <object name="UserService" class="com.student.service.impl.UserServiceImpl"/>
+</objects>
