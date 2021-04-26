@@ -26,7 +26,6 @@ public class ActionImpl implements Action {
     } else {
       flag = "error";
     }
-
     return flag;
   }
 

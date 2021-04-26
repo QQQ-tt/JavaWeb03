@@ -12,6 +12,7 @@ import java.util.List;
 
 /** 业务的操作(CURD) @Author: QTX @Date: 2021/4/6 */
 public class JdbcTemplpate {
+
   /**
    * 用于增删改的方法
    *

@@ -12,6 +12,7 @@ import java.util.Properties;
 
 /** @Author: QTX @Date: 2021/4/22 */
 public class JdbcUtil {
+
   /** 创建一个本地连接 */
   private static DataSource ds = null;
   /** 通过线程本地变量保存连接 */

@@ -9,6 +9,7 @@ import java.util.List;
 
 /** @Author: QTX @Date: 2021/4/22 */
 public class UserDaoImpl implements UserDao {
+
   @SneakyThrows
   @Override
   public void insert(String name, String password, int sex, int number) {

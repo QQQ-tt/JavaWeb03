@@ -8,7 +8,6 @@ import java.sql.ResultSet;
 
 /** @Author: QTX @Date: 2021/4/6 */
 public class UserRowsMapperImpl implements RowedMapper {
-
   @SneakyThrows
   @Override
   public Object setObject(ResultSet rs) {

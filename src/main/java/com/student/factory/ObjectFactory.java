@@ -21,7 +21,6 @@ public class ObjectFactory {
 
   static {
     SAXReader saxReader = new SAXReader();
-
     try {
       Document obj =
           saxReader.read(ObjectFactory.class.getClassLoader().getResourceAsStream("object.xml"));

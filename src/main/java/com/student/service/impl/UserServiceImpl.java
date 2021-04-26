@@ -19,6 +19,7 @@ public class UserServiceImpl implements UserService {
 
   @Override
   public boolean login(String name, String password) {
+
     this.action.begin();
     List select = this.userDao.select(name);
     this.action.commit();

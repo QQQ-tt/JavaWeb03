@@ -102,16 +102,12 @@ public class ActionFilter implements Filter {
           System.out.println("------重定向-------");
           resp.sendRedirect(req.getContextPath() + rcfig.getPath());
         }
-      } catch (InstantiationException var17) {
+      } catch (InstantiationException
+          | IllegalAccessException
+          | ClassNotFoundException
+          | NoSuchMethodException
+          | InvocationTargetException var17) {
         var17.printStackTrace();
-      } catch (IllegalAccessException var18) {
-        var18.printStackTrace();
-      } catch (ClassNotFoundException var19) {
-        var19.printStackTrace();
-      } catch (NoSuchMethodException var20) {
-        var20.printStackTrace();
-      } catch (InvocationTargetException var21) {
-        var21.printStackTrace();
       }
     } else {
       System.out.println("-----放行-----");
